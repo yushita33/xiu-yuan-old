@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+/* menu */
+.menu h2 {
+    color: #6B3D36;
+    font-family: Calibri;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu h2::before {
+    content: "";
+    width: 136px;
+    height: 1px;
+    background-color: #6B3D36;
+}
+
+.menu img {
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.menu-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 380px;
+    height: 380px;
+}
+
+.text {
+    font-family: Calibri;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.text h3 {
+    font-size: 30px;
+    margin: 0;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #6B3D36CC;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+}
+
+.button a {
+    border: #A56D35 3px solid;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Calibri;
+    padding: 5px 15px;
+    box-shadow: 2px 3px 3px rgb(136, 132, 132);
+}
+
+.button a:hover
+{
+    color: #59595966;
+}
+
+/* rice */
+.rice-noodle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rice-noodle-text {
+    color: #D3212C;
+}
+
+.red a {
+    color: #D3212C;
+}
+
+/* veggie */
+.vegetable-delights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vegetable-delights-text {
+    color: #007E39;
+}
+
+.green a {
+    color: #007E39;
+}
+
+/* drink */
+.juice-drink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.juice-drink-text {
+    color: #FF8C00;
+}
+
+.orange a {
+    color: #FF8C00;
+}
+
+/* backtop */
+.back-to-top {
+    position: sticky;
+    padding-right: 30px;
+    bottom: 0;
+    right: 0;
+    left: 100%;
+}
+
+.back-to-top img {
+    width: 12px;
+    height: auto;
+    position: absolute;
+    bottom: 12px;
+}
